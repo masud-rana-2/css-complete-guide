@@ -1,0 +1,81 @@
+main {
+  padding-top: 5rem;
+}
+
+.background {
+  background: url("../images/background.jpg") center / cover no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.package {
+  width: 80%;
+  border: 4px solid #023d02;
+  margin: 1rem 0;
+  border-left: none;
+  position: relative;
+}
+
+.package a {
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.package__subtitle {
+  color: #979797;
+}
+
+.package__info {
+  background: #fff;
+  border: 1px solid #023d02;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.package:hover,
+.package:active {
+  border-color: #ff5454;
+}
+
+#plus {
+  background: rgba(209, 252, 216, 0.95);
+}
+
+.package__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.7rem;
+  margin: 1.25rem;
+  background: #ff5454;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+#free {
+  background: rgba(219, 243, 223, 0.95);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #023d02;
+}
+
+#free:hover,
+#free:active {
+  border-color: #ff5454;
+}
+
+#premium {
+  background: rgba(9, 68, 17, 0.95);
+}
+
+#premium .package__title {
+  color: #fff;
+}
